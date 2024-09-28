@@ -642,19 +642,27 @@
 </code></pre></div>
 <h4 id="2_1">2、部署站点<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h4>
 <ol>
-<li>进入github，新建一个特殊仓库<code>SongTao2021.github.io</code>，SongTao2021 为用户名。</li>
-<li>本地合适路径位置新建任意文件夹，例如 <em><em>st *</em>，并进入 *</em>st **文件夹。</li>
-<li>输入<code>git clone https://github.com/&lt;用户名&gt;/&lt;用户名&gt;.github.io.git</code>，即<code>git clone https://github.com/SongTao2021/SongTao2021.github.io.git</code>命令，从远程仓库克隆项目到本地计算机， *<em>st *</em>文件夹内会创建<code>SongTao2021.github.io</code>文件夹。</li>
-<li>进入先前创建的文件夹 <strong>new_mkdocs</strong> 中的 <strong>site</strong> 文件夹，将文件夹里的文件拷贝到git本地仓库，即<code>st/SongTao2021.github.io</code>文件夹中。</li>
-<li>在本地git仓库，即在<code>st/SongTao2021.github.io</code>文件夹中进入 git bash ，将本地仓库中的文件同步到github的master branch上，先后执行：</li>
+<li>
+<p>进入github，新建一个特殊仓库<code>SongTao2021.github.io</code>，SongTao2021 为用户名。</p>
+</li>
+<li>
+<p>本地合适路径位置新建任意文件夹，例如 <em><em>st *</em>，并进入 *</em>st **文件夹。</p>
+</li>
+<li>
+<p>输入<code>git clone https://github.com/&lt;用户名&gt;/&lt;用户名&gt;.github.io.git</code>，即<code>git clone https://github.com/SongTao2021/SongTao2021.github.io.git</code>命令，从远程仓库克隆项目到本地计算机， *<em>st *</em>文件夹内会创建<code>SongTao2021.github.io</code>文件夹。</p>
+</li>
+<li>
+<p>进入先前创建的文件夹 <strong>new_mkdocs</strong> 中的 <strong>site</strong> 文件夹，将文件夹里的文件拷贝到git本地仓库，即<code>st/SongTao2021.github.io</code>文件夹中。</p>
+</li>
+<li>
+<p>在本地git仓库，即在<code>st/SongTao2021.github.io</code>文件夹中进入 git bash ，将本地仓库中的文件同步到github的master branch上，先后执行：</p>
+</li>
 </ol>
 <div class="language-bash highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos="1 "></span></a>git<span class="w"> </span>add<span class="w"> </span>-A
 <a id="__codelineno-4-2" name="__codelineno-4-2"></a><a href="#__codelineno-4-2"><span class="linenos" data-linenos="2 "></span></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;commit words&quot;</span><span class="w"> </span><span class="c1"># -m:提交信息 “XXX”:提交信息内容</span>
 <a id="__codelineno-4-3" name="__codelineno-4-3"></a><a href="#__codelineno-4-3"><span class="linenos" data-linenos="3 "></span></a>git<span class="w"> </span>push
 </code></pre></div>
-<ol>
-<li>此时通过<code>https://&lt;用户名&gt;.github.io</code>，即<code>https://SongTao2021.github.io</code>域名就可以访问到mkdocs静态网页站点。</li>
-</ol>
+<p>最后，此时通过<code>https://&lt;用户名&gt;.github.io</code>，即<code>https://SongTao2021.github.io</code>域名就可以访问到mkdocs静态网页站点。</p>
 
 
 
